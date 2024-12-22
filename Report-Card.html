@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Card</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include html2pdf.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+</head>
+<body>
+    <div class="report-card-container" id="report-card-content">
+        <h3>Student Report Card</h3>
+        <p>Name: <strong id="student-name"></strong></p>
+        <p>University Name: Ajeenkya D Y Patil University</p>
+        <p>Program Name: B.Tech AI&DS</p>
+        <p>Year: 3rd</p>
+        <p>Semester: 5</p>
+        <hr>
+        
+        <!-- Table for Subjects and GPA -->
+        <table id="report-card-table">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>CGPA</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody id="subjects-list"></tbody>
+        </table>
+        
+        <hr>
+        <!-- Display Gross Total GPA and Final Grade -->
+        <div id="final-result">
+            <h4>Final GPA: <strong id="final-gpa"></strong></h4>
+            <h4>Final Grade: <strong id="final-grade"></strong></h4>
+        </div>
+
+        <!-- Add Download Button -->
+        <button id="download-pdf" class="btn btn-primary">Download Report Card as PDF</button>
+    </div>
+
+    <script src="report-card.js"></script>
+</body>
+</html>
