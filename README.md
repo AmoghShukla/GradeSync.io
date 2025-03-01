@@ -17,3 +17,28 @@
 - **Authentication**: Django Authentication, JWT
 - **APIs**: RESTful API for seamless data exchange
 
+
+## 📥 Installation
+
+### 1️⃣ Clone the Repository
+```sh
+ git clone https://github.com/AmoghShukla/GradeSync.io.git
+ cd GradeSync.io
+```
+
+### 2️⃣ Backend Setup (Django)
+```sh
+ python -m venv venv  # Create a virtual environment
+ source venv/bin/activate  # Activate the environment (Linux/macOS)
+ venv\Scripts\activate  # Activate the environment (Windows)
+ pip install -r requirements.txt  # Install dependencies
+ python manage.py migrate  # Apply database migrations
+ python manage.py runserver  # Start the development server
+```
+
+### 3️⃣ Frontend Setup (Next.js)
+```sh
+ cd frontend
+ npm install  # Install dependencies
+ npm run dev  # Start the frontend server
+```
