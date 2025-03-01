@@ -42,3 +42,22 @@
  npm install  # Install dependencies
  npm run dev  # Start the frontend server
 ```
+
+## 🖥️ Usage
+- Open your browser and visit: `http://localhost:3000`
+- Sign up/log in to access the dashboard
+- Add subjects and track grades easily
+
+## 🤝 Contributing
+We welcome contributions! To contribute:
+1. Fork the repository
+2. Create a new branch (`feature-branch`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature-branch`)
+5. Open a Pull Request
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+## ✨ Contact
+For any queries, reach out via [LinkedIn](https://linkedin.com/in/amoghshukla) or email at `amoghshukla548@gmail.com`.
